@@ -1,0 +1,42 @@
+.display {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border-radius: 16px;
+  padding: 24px 20px;
+  margin-bottom: 4px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display-value {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: right;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  word-break: break-all;
+  line-height: 1.2;
+}
+
+@media (max-width: 480px) {
+  .display {
+    padding: 20px 16px;
+  }
+  
+  .display-value {
+    font-size: 2.2rem;
+    min-height: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .display {
+    padding: 16px 12px;
+  }
+  
+  .display-value {
+    font-size: 2rem;
+    min-height: 45px;
+  }
+}

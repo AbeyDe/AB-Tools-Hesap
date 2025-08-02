@@ -1,0 +1,21 @@
+{
+  "name": "AB Tools: Calculator",
+  "short_name": "AB Calculator",
+  "description": "A modern calculator app for Android 12+",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#667eea",
+  "background_color": "#f8fafc",
+  "icons": [
+    {
+      "src": "calculator-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr"
+}
